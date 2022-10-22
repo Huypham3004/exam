@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+#app{
+    width: 1215px;
+    height: 856px;
+    margin: 100px;
+    padding: 100px;
+    border: 1px solid #BFC8E6;
+    border-radius: 16px;
+}
+.header{
+    margin-bottom: 70px;
+}
+
+.header .title{
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+.header .menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .menu .search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #BFC8E6;
+    padding: 16px;
+    width: 327px;
+    height: 64px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.header .menu .search .search-box{
+    border: none;
+    outline: none;
+    width: 327px;
+}
+
+.header .menu .list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .menu .list .list-item{
+    padding: 16px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.header .menu .list .list-item:hover{
+    background-color: #849FFF;
+    border-radius: 8px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.content .user{
+    width: 327px;
+    height: 208px;
+    padding: 24px;
+    display: flex;
+    gap: 16px;
+}
+
+.content .user:hover{
+    border: 1px solid #BFC8E6;
+    border-radius: 16px;
+}
+
+.content .user img{
+    width: 97px;
+    height: 97px;
+    cursor: pointer;
+}
+
+.content .user .name{
+    font-size: 18px;
+    padding: 20px 0 4px 0;
+    cursor: pointer;
+}
+
+.content .user .address{
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    padding-bottom: 16px;
+}
+
+.content .user .other-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.content .user .other-info .item{
+    background-color: #FFFFFF;
+    color: #516FD4;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 2px 8px;
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    cursor: pointer;
+}
